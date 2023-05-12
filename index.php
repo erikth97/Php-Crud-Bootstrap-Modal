@@ -25,22 +25,22 @@
                 </div>
                 <div class="modal-body">
                     <div class="form-group">
-                        <label for="completename">Nombre</label>
+                        <label for="completename">name</label>
                         <input type="text" class="form-control" id="completename" 
                           placeholder="Ingresa tu Nombre">
                     </div>
                     <div class="form-group">
-                        <label for="completemail">Email</label>
+                        <label for="completemail">email</label>
                         <input type="email" class="form-control" id="completemail" 
                           placeholder="Ingresa tu Email">
                     </div>
                     <div class="form-group">
-                        <label for="completemobile">Telefono</label>
+                        <label for="completemobile">mobile</label>
                         <input type="text" class="form-control" id="completemobile" 
                           placeholder="Ingresa tu Numero telefonico">
                     </div>
                     <div class="form-group">
-                        <label for="completeplace">Ciudad</label>
+                        <label for="completeplace">place</label>
                         <input type="text" class="form-control" id="completeplace" 
                           placeholder="Ingresa tu Ciudad">
                     </div>
@@ -55,7 +55,7 @@
 
     <div class="container my-3">
         <h1 class="text-center">PHP CRUD operaciones usando Bootstrap Modal</h1>
-        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#completeModal">
+        <button type="button" class="btn btn-dark my-3" data-toggle="modal" data-target="#completeModal">
             Agregar nuevo usuario
         </button>
         <div id="displayDataTable"></div> 
@@ -73,8 +73,11 @@
 
     <script>
 
-// display function
-function displayData(){
+ $(document).ready(function(){
+    displayData();
+});
+ // display function
+ function displayData(){
     var displayData="true";
     $.ajax({
         url:"display.php",
@@ -86,7 +89,7 @@ function displayData(){
            $('#displayDataTable').html(data);
         }
     });
-}
+ }
 
      function adduser(){
     var nameAdd=$('#completename').val();
@@ -110,11 +113,11 @@ function displayData(){
         }
 
      });
-}
+ }
 
     </script>
 
 
-</body>
+ </body>
 
 </html>
