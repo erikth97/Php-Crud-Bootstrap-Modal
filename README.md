@@ -4,12 +4,12 @@ Este repositorio contiene un proyecto de un CRUD (Create, Read, Update, Delete) 
 
 ## Tecnologías utilizadas
 
-- PHP
-- Bootstrap
-- JavaScript
-- jQuery
-- AJAX
-- Base de datos MySQL
+- PHP <img src="https://img.icons8.com/officel/20/000000/php-logo.png"/>
+- Bootstrap <img src="https://img.icons8.com/color/20/000000/bootstrap.png"/>
+- JavaScript <img src="https://img.icons8.com/color/20/000000/javascript.png"/>
+- jQuery <img src="https://img.icons8.com/ios-filled/20/000000/jquery.png"/>
+- AJAX <img src="https://img.icons8.com/ios-filled/20/000000/ajax.png"/>
+- Base de datos MySQL <img src="https://img.icons8.com/color/20/000000/mysql-logo.png"/>
 
 ## Funcionalidades
 
