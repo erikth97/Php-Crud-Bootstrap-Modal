@@ -1,4 +1,7 @@
 # Bootstrap CRUD Modal
+![image](https://github.com/erikth97/Php-Crud-Bootstrap-Modal/assets/94486146/4d3e2d99-5ccc-482a-8164-9aeb8e0e333f)
+![image](https://github.com/erikth97/Php-Crud-Bootstrap-Modal/assets/94486146/ca57e6fe-d851-4278-a92b-d2bc44f93abc)
+![image](https://github.com/erikth97/Php-Crud-Bootstrap-Modal/assets/94486146/4c074440-860d-41a9-aabc-ec55cee7090d)
 
 Este repositorio contiene un proyecto de un CRUD (Create, Read, Update, Delete) implementado utilizando Bootstrap. El proyecto incluye un formulario donde los usuarios pueden ingresar datos, y luego se muestra una tabla con los datos ingresados. Además, los usuarios pueden agregar nuevos datos, modificar los datos existentes y eliminar registros utilizando AJAX para actualizar la tabla en tiempo real.
 
