@@ -46,5 +46,5 @@ Este proyecto fue desarrollado utilizando las siguientes fuentes de información
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
+Este proyecto está bajo la Licencia MIT. 
 
